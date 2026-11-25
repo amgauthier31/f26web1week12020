@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Embedding External Rousourse</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wdth,wght@0,100..125,100..900;1,100..125,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    
+    <div calss="container">
+        <header>
+            <h1> Embedding Things</h1>
+        </header>
+
+        <main>
+            <!-- ai promt to add placeholder content:
+             inside the main, add a section with an h3 and two paragraphs about snow-->
+            <section>
+                <h3>Snow</h3>
+                <p>Snow is made of tiny ice crystals that fall from clouds when temperatures are cold enough.</p>
+                <p>Fresh snow reflects sunlight and can brighten the landscape, while deep snow provides insulation for plants and animals.</p>
+            </section>
+
+            <section>
+                <!-- embedding yt vid: -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qk6MeIXsUeU?si=O-jMNN64WavSoEjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </section>
+
+            <section>
+                <!-- embedding google map algonquin college: -->
+                <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3034.004967520347!2d-75.76017372365891!3d45.349011091116594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sAlgonquin%20College!5e1!3m2!1sen!2sca!4v1795626180785!5m2!1sen!2sca"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
